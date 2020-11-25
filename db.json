@@ -1,0 +1,13 @@
+{
+  "users": [
+    { "id": "1", "name": "Nico", "age": 24, "companyId": "1" },
+    { "id": "2", "name": "Agus", "age": 23, "companyId": "2" },
+    { "id": "3", "name": "Manu", "age": 23, "companyId": "2" },
+    { "id": "4", "name": "Franco", "age": 22, "companyId": "1" },
+    { "id": "5", "name": "Juan", "age": 26, "companyId": "1" }
+  ],
+  "companies": [
+    {"id": "1", "name": "Apple", "description": "The company with the apple logo"},
+    {"id": "2", "name": "Google", "description": "The company that knows all about you"}
+  ]
+}
