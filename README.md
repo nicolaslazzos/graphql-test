@@ -1,4 +1,4 @@
-# graph-ql
+# graphql-test
 First approach to GraphQL, just playing around.
 
 ## How to run the project
