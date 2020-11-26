@@ -1,0 +1,38 @@
+# mutation {
+#   addUser(name: "Pedro", age: 25) {
+#     name
+#   }
+# }
+
+# mutation {
+#   editUser(id: "mX6QsIc", name: "Pedro", age: 22, companyId: "2") {
+#     id
+#     name
+#     age
+#     company {
+#       name
+#     }
+#   }
+# }
+
+# mutation {
+#   deleteUser(id: "mX6QsIc") {
+#     name
+#   }
+# }
+
+{
+  user(id: "2") {
+    id
+    name
+    age
+    company {
+      name
+      users {
+        name
+        age
+      }
+    }
+  }
+}
+  
